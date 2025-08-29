@@ -47,9 +47,11 @@ console.log(isFabioPresent);
 let teachersString = "";
 
 for (let i = 0; i < teachers.length; i++) {
-  const teacherName = teachers[i]
+  const teacherName = teachers[i];
+  teachersString += `${teacherName}`;
 
-  teachersString += `${teacherName} `
+  if (i < teachers.length - 1) teachersString += ", ";
+  
 }
 
 console.log(teachersString);
