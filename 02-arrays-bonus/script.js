@@ -13,7 +13,7 @@ const teachers = [
 const reversedTeachers = []
 
 for (let i = teachers.length - 1; i >= 0; i--) {
-  reversedTeachers.push(teachers[i])
+  reversedTeachers.push(teachers[i]);
 }
 
 console.log(reversedTeachers);
